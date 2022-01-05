@@ -1,4 +1,45 @@
-body{
-    background-color: white;
-    font-size: 20px;
+html{
+    font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+div.advertise-background {
+    background-color: #444444;
+    height: 40px;
+    text-align: right;
+}
+
+div.advertise {
+    font-size: 12px;
+    color: #868688;
+    line-height: 35px;
+    margin-right: 20%;
+}
+
+div.navigate-background-parent {
+    /*background-color: rgba();*/
+    background-color: #333;
+}
+ul.navigate-background {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    height: 50px;
+    /*background-color: rgba(0, 0, 0, 0.8);*/
+    overflow: auto;
+    width: fit-content;
+}
+
+li.navigate-text {
+    /*float: left;*/
+    display: inline-block;
+    padding: 14px;
+}
+
+li.navigate-text a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+.remind{
+    background-color: #f5f5f7;
+    height: 50px;
 }
