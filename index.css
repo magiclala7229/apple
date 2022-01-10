@@ -40,11 +40,12 @@ li.link-name a {
     text-decoration: none;
 }
 .tips{
-    background-color: #f5f5f7;
+    background-color: #e34140;
     font-size: 12px;
     height: 50px;
     line-height: 50px;
     text-align: center;
+    color:white;
 }
 
 /*div a.link-name{*/
@@ -53,6 +54,35 @@ li.link-name a {
 /*}*/
 
 a:link,a:visited{
-    color: #06c;
+    color: white;
     text-decoration: none;
+}
+#img-apple{
+    width:17px;
+    position: relative;
+    top:3px;
+    right:6px;
+}
+#img-search{
+    width:17px;
+    position: relative;
+    top:3px;
+    left:6px;
+}
+#img-shopping{
+    width:17px;
+    position: relative;
+    top:3px;
+    left:8px;
+}
+.page-one{
+    width: 1920px;
+    height:580px;
+    background-color:gray;
+}
+#img-tiger{
+    display: block;
+    width:70px;
+    margin:0 auto;
+    padding-top: 1%;
 }
