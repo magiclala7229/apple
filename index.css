@@ -86,3 +86,14 @@ a:link,a:visited{
     margin:0 auto;
     padding-top: 1%;
 }
+h2.summary{
+    text-align: center;
+    font-size: 45px;
+    margin: 22px 22px 5px;
+}
+p.summary{
+    text-align: center;
+    font-size: 30px;
+    word-spacing: -5px;
+    margin:1px auto 10px;
+}
