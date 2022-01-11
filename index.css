@@ -53,16 +53,43 @@ li.link-name a {
 /*    text-decoration: none;*/
 /*}*/
 
-a:link,a:visited{
-    color: white;
+A.nav:link{
+    color: #a2a2a2;
     text-decoration: none;
 }
+
+A.nav:visited{
+    color:#a2a2a2;
+    text-decoration: none;
+}
+
+A.nav:hover{
+    color:#ffffff;
+}
+
+
+A.link-name1:link,A.link-name1:visited{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*a:link,a:visited{*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*}*/
+
 #img-apple{
     width:17px;
     position: relative;
     top:3px;
     right:6px;
 }
+
+/*调整鼠标移到图片上的样式*/
+/*A#img-apple:hover{*/
+/*    color: #ffffff;*/
+/*}*/
+
 #img-search{
     width:17px;
     position: relative;
@@ -76,7 +103,7 @@ a:link,a:visited{
     left:8px;
 }
 .page-one{
-    width: 1920px;
+    width:auto;
     height:580px;
     background-color:gray;
 }
@@ -86,14 +113,28 @@ a:link,a:visited{
     margin:0 auto;
     padding-top: 1%;
 }
-h2.summary{
+.summary-year{
     text-align: center;
     font-size: 45px;
     margin: 22px 22px 5px;
 }
-p.summary{
+.summary-gift{
     text-align: center;
     font-size: 30px;
     word-spacing: -5px;
-    margin:1px auto 10px;
+    margin:8px auto 10px;
+}
+.link-shopping{
+    display: block;
+    text-align: center;
+}
+
+A.link-shopping:link,A.link-shopping:visited{
+    color:#0066CC;
+    text-decoration: none;
+}
+
+A.link-shopping:hover{
+    color: #0066CC;
+    text-decoration: underline;
 }
