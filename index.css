@@ -87,7 +87,7 @@ A.link-name1:link,A.link-name1:visited{
 
 /*调整鼠标移到图片上的样式*/
 /*A#img-apple:hover{*/
-/*    color: #ffffff;*/
+/*    opacity: 1.0;*/
 /*}*/
 
 #img-search{
@@ -107,12 +107,26 @@ A.link-name1:link,A.link-name1:visited{
     height:580px;
     background-color:gray;
 }
-#img-tiger{
+.div-img-tiger{
+    width: 70px;
+    height: 88px;
     display: block;
-    width:70px;
     margin:0 auto;
     padding-top: 1%;
 }
+
+#img-tiger{
+    width: 100%;
+    height: auto;
+}
+
+/*#img-tiger{*/
+/*    display: block;*/
+/*    width:70px;*/
+/*    margin:0 auto;*/
+/*    padding-top: 1%;*/
+/*    box-shadow:10px 10px 10px 5px blue;*/
+/*}*/
 .summary-year{
     text-align: center;
     font-size: 45px;
@@ -127,6 +141,7 @@ A.link-name1:link,A.link-name1:visited{
 .link-shopping{
     display: block;
     text-align: center;
+    font-size:21px;
 }
 
 A.link-shopping:link,A.link-shopping:visited{
